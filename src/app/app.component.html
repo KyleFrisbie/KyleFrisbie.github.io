@@ -1,34 +1,30 @@
-<div flex fxLayout="row" fxLayout.lt-sm="column">
-  <div fxFlex>
-    <mat-card>
-      <mat-card-header>
-        <mat-card-title>Experience</mat-card-title>
-      </mat-card-header>
-      <mat-card-content>
-        Some of my experience.
-      </mat-card-content>
-    </mat-card>
-  </div>
-  <div fxFlex>
-    <mat-card>
-      <mat-card-header>
-        <mat-card-title>About</mat-card-title>
-      </mat-card-header>
-      <mat-card-content>
-        About me.
-      </mat-card-content>
-    </mat-card>
-  </div>
-  <div fxFlex>
-    <mat-card>
-      <mat-card-header>
-        <mat-card-title>Connect</mat-card-title>
-      </mat-card-header>
-      <mat-card-content>
-        <mat-icon svgIcon="linkedin"></mat-icon>
-        <mat-icon svgIcon="stack-overflow"></mat-icon>
-        <mat-icon svgIcon="github"></mat-icon>
-      </mat-card-content>
-    </mat-card>
+<div fxLayoutAlign="center stretch">
+  <div flex fxLayout="row" fxLayout.lt-sm="column" fxFlexAlign="center" class="card">
+    <div fxFlex>
+      <mat-card>
+        <mat-card-header>
+          <div class="avatar" mat-card-avatar></div>
+          <mat-card-title>Kyle L Frisbie</mat-card-title>
+          <mat-card-subtitle>Software Developer</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          Hey there! I'm a software developer focused on full stack web applications. I'm passionate about integrating applications
+          through RESTful APIs, micro-service architectures, and continuous integration/deployments. I spend most of my time
+          creating Angular applications that interfacing services built in various frameworks including Node/Express, SpringBoot,
+          and dotnet.
+        </mat-card-content>
+        <mat-card-actions class="card-actions">
+          <a target="_blank" mat-icon-button href="https://www.linkedin.com/in/kylelfrisbie">
+            <mat-icon svgIcon="linkedin"></mat-icon>
+          </a>
+          <a target="_blank" mat-icon-button href="https://github.com/KyleFrisbie">
+            <mat-icon svgIcon="github"></mat-icon>
+          </a>
+          <a target="_blank" mat-icon-button href="https://stackoverflow.com/users/4488232/kfrisbie">
+            <mat-icon svgIcon="stack-overflow"></mat-icon>
+          </a>
+        </mat-card-actions>
+      </mat-card>
+    </div>
   </div>
 </div>
